@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CoffeBack • Login</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<menu id="main-nav">
+        <ul id="nav">
+            <li>CoffeeBack</li>
+        </ul>
+    </menu>
+   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="login">
+        <h1>Entrar no CoffeeBack</h1>
+        <form action="javascript:void(0);" method="get">
+            <fieldset>
+                <p><input type="text" required value="Usuário" onBlur="if(this.value=='')this.value='Usuário'" onFocus="if(this.value=='Usuário')this.value='' "></p>
+
+                <p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+
+                <p><a href="#">Não tem conta ainda?</a></p>
+
+                <p><input type="submit" value="Login"></p>
+            </fieldset>
+        </form>
+        <p><span class="btn-round">&nbsp;</span></p>
+    </div> <!-- end login -->
+</body>
+</html>
