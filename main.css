@@ -23,41 +23,7 @@ ul{
     position: relative;
     padding: 13px 18px;
     color: #F2F1EF;
-}
-#nav li:hover{
-    cursor: pointer;
     background-color: #FF7E4F;
-}
-
-.dropdown ul{
-    display: none;
-    position: absolute;
-    top: 46px;
-    margin-left: -18px;
-    margin-right: -18px;
-    padding: 0;
-    width: 100%;
-}
-.dropdown:hover ul.dropdown-list{
-    display: block;
-}
-.dropdown ul.dropdown-list li.a{
-    background-color:#FF7E4F;
-    width: 150px;
-    position: relative;
-}
-.sub-dropdown ul.sub-dropdown-list{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 204px;
-    width: 100%;
-}
-.sub-dropdown:hover ul{
-    display: block;
-}
-.sub-dropdown-list li{
-    background-color: #FF9168;
 }
 section{
     width: 960px;

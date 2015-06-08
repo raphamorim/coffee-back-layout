@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>CoffeBack • Login</title>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libs/bootstrap.2.1.1.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="home.css">    
 </head>
 <body>
 <menu id="main-nav">
@@ -13,8 +14,44 @@
         </ul>
     </menu>
     <section id="main">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed erat pharetra, scelerisque tellus sed, volutpat odio. Quisque congue leo sed tellus placerat, in sollicitudin nisi bibendum. Vestibulum a dui maximus nisi gravida auctor. Sed vel tortor et sem efficitur blandit. Integer porttitor accumsan nisi, ut ornare quam molestie a. Praesent sed purus sed tellus tristique varius a ut diam. Sed velit mauris, laoreet sit amet commodo quis, consequat id libero. Phasellus ac nunc ac est sollicitudin congue eu quis lectus. Curabitur dolor erat, cursus sit amet fringilla ut, vulputate vel libero.</p>
-        <p>Praesent non rhoncus quam. Donec vestibulum, nunc venenatis bibendum semper, libero felis accumsan quam, ut luctus mi ligula vehicula sapien. Duis ac sapien vel quam elementum pellentesque ac vitae dui. Quisque tristique a nisi eu finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec id eleifend augue. Fusce elementum ante quis nisi sagittis, id bibendum  Suspendisse sed augue egestas odio scelerisque viverra. Nam in quam felis. Donec pellentesque lorem et sapien fringilla laoreet ut ac tellus. Vestibulum rhoncus urna id lectus finibus, vitae convallis tortor tempus. Duis vitae gravida nibh. Aliquam neque nisl, lacinia nec orci id, interdum vehicula lectus.</p>
+      <a href="/logoff">
+        <div class="logoff">
+          Sair
+        </div>
+      </a>
+      <img src="assets/images/avatar-user.jpg" class="person-avatar">
+      <h3>Raphael Amorim</h3>
+      <p><strong>Café Indicado</strong>: 6</p>
+      <p><strong>Café Gratuito</strong>: 1</p>
+      <div id="friends">
+        <h4>Meus amigos</h4>
+        <ul>
+            <li>
+                <input type="checkbox" class="styled" id="b_1">
+                <label class="styled" for="b_1">Renato Andrade</label>
+            </li>
+  
+            <li>
+                <input type="checkbox" class="styled" id="b_2">
+                <label class="styled" for="b_2">Ramon Mançano</label>
+            </li>
+  
+            <li>
+                <input type="checkbox" class="styled" id="b_3">
+                <label class="styled" for="b_3">Caio Régis</label>
+            </li>
+
+            <li>
+                <input type="checkbox" class="styled" id="b_4">
+                <label class="styled" for="b_4">Diego Santos</label>
+            </li>
+        </ul>
+      </div>
+      <a href="/confirmar">
+            <div class="btn cadastrar">
+                Cadastrar Café
+            </div>
+      </a>
     </section> 
 </body>
 </html>
